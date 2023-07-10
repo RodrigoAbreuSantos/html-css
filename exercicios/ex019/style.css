@@ -1,0 +1,38 @@
+/*
+Tudo em HTMl que é id em CSS é #
+Tudo em HTMl que é class em CSS é .
+
+Id usa quando tem somente um, class quando tem mais do que um
+
+*/
+
+
+body{
+    background-color: rgb(205,255,203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(4,109,0);
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: rgb(51,79,43);
+}
+
+.basico{
+    color: rgb(47, 146, 47);
+}
+
+.intermediario{
+    color: rgb(59, 59, 15);
+}
+
+.avancado{
+    color: rgb(107, 16, 16);
+}
+
+.destaque{
+    background-color: rgb(59, 59, 10);
+}
